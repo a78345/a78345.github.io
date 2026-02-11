@@ -15,7 +15,10 @@ text-align:center;
 </head>
 <body>
 <h1 class="center">Random Website</h1>
-<p class="center">This is my Github website.</p>
+<p class="center">This is my Github website<span id="NoScriptElement">, and you seem to have JavaScript disabled</span>.</p>
+<script type="text/javascript">
+document.getElementById("NoScriptElement").innerHTML="";
+</script>
 <p class="center"><a href="/html5clicker/">HTML5 Clicker</a></p>
 <p class="center"><a href="/solitaire/standalone.html">Google Solitaire</a></p>
 <p class="center"><a href="/2048/">2048 (by gabrielecirulli)</a></p>
